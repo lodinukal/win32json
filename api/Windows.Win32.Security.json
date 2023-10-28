@@ -18,85 +18,85 @@
 	,{
 		"Name":"SECURITY_NULL_SID_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 0","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 0]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_WORLD_SID_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 1","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 1]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_LOCAL_SID_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 2","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 2]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_CREATOR_SID_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 3","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 3]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_NON_UNIQUE_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 4","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 4]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_NT_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 5","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 5]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_RESOURCE_MANAGER_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 9","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 9]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_APP_PACKAGE_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 15","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 15]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_MANDATORY_LABEL_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 16","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 16]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_SCOPED_POLICY_ID_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 17","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 17]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_AUTHENTICATION_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 18","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 18]
 		,"Attrs":[]
 	}
 	,{
 		"Name":"SECURITY_PROCESS_TRUST_AUTHORITY"
 		,"Type":{"Kind":"ApiRef","Name":"SID_IDENTIFIER_AUTHORITY","TargetKind":"Default","Api":"Windows.Win32.Security","Parents":[]}
-		,"ValueType":"PropertyKey"
-		,"Value":{"Fmtid":"0, 0, 0, 0, 0, 19","Pid":null}
+		,"ValueType":"SID"
+		,"Value":[0, 0, 0, 0, 0, 19]
 		,"Attrs":[]
 	}
 	,{
