@@ -1,0 +1,1557 @@
+{
+
+"Constants":[
+	{
+		"Name":"DEVPROP_TRUE"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROP_BOOLEAN","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"Byte"
+		,"Value":255
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPROP_FALSE"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROP_BOOLEAN","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"Byte"
+		,"Value":0
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterface_Autoplay_Silent"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1129173647, 40565, 17674, 154, 185, 255, 97, 230, 24, 186, 208","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_NAME"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"3072717104, 18415, 4122, 165, 241, 2, 96, 140, 158, 235, 172","Pid":10}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DeviceDesc"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_HardwareIds"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_CompatibleIds"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":4}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Service"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":6}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Class"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":9}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ClassGuid"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":10}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Driver"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":11}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ConfigFlags"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":12}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Manufacturer"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":13}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_FriendlyName"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":14}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_LocationInfo"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":15}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_PDOName"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":16}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Capabilities"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":17}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_UINumber"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":18}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_UpperFilters"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":19}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_LowerFilters"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":20}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_BusTypeGuid"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":21}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_LegacyBusType"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":22}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_BusNumber"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":23}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_EnumeratorName"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":24}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Security"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":25}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_SecuritySDS"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":26}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DevType"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":27}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Exclusive"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":28}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Characteristics"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":29}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Address"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":30}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_UINumberDescFormat"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":31}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_PowerData"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":32}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_RemovalPolicy"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":33}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_RemovalPolicyDefault"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":34}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_RemovalPolicyOverride"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":35}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_InstallState"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":36}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_LocationPaths"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":37}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_BaseContainerId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2757502286, 57116, 20221, 128, 32, 103, 209, 70, 168, 80, 224","Pid":38}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_InstanceId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":256}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DevNodeStatus"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ProblemCode"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_EjectionRelations"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":4}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_RemovalRelations"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":5}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_PowerRelations"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":6}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_BusRelations"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":7}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Parent"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":8}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Children"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":9}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Siblings"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":10}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_TransportRelations"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":11}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ProblemStatus"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1128310469, 37882, 18182, 151, 44, 123, 100, 128, 8, 165, 167","Pid":12}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Reported"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2152296704, 35955, 18617, 170, 217, 206, 56, 126, 25, 197, 110","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Legacy"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2152296704, 35955, 18617, 170, 217, 206, 56, 126, 25, 197, 110","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ContainerId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2357121542, 16266, 18471, 179, 171, 174, 158, 31, 174, 252, 108","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_InLocalMachineContainer"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2357121542, 16266, 18471, 179, 171, 174, 158, 31, 174, 252, 108","Pid":4}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Model"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":39}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ModelId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2161647270, 29811, 19212, 130, 22, 239, 193, 26, 44, 76, 139","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_FriendlyNameAttributes"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2161647270, 29811, 19212, 130, 22, 239, 193, 26, 44, 76, 139","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ManufacturerAttributes"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2161647270, 29811, 19212, 130, 22, 239, 193, 26, 44, 76, 139","Pid":4}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_PresenceNotForDevice"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2161647270, 29811, 19212, 130, 22, 239, 193, 26, 44, 76, 139","Pid":5}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_SignalStrength"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2161647270, 29811, 19212, 130, 22, 239, 193, 26, 44, 76, 139","Pid":6}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_IsAssociateableByUserAction"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2161647270, 29811, 19212, 130, 22, 239, 193, 26, 44, 76, 139","Pid":7}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ShowInUninstallUI"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2161647270, 29811, 19212, 130, 22, 239, 193, 26, 44, 76, 139","Pid":8}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Numa_Proximity_Domain"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":1}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DHP_Rebalance_Policy"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Numa_Node"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_BusReportedDeviceDesc"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":4}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_IsPresent"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":5}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_HasProblem"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":6}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ConfigurationId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":7}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ReportedDeviceIdsHash"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":8}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_PhysicalDeviceLocation"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":9}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_BiosDeviceName"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":10}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverProblemDesc"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":11}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DebuggerSafe"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":12}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_PostInstallInProgress"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":13}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_Stack"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":14}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ExtendedConfigurationIds"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":15}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_IsRebootRequired"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":16}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_FirmwareDate"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":17}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_FirmwareVersion"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":18}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_FirmwareRevision"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":19}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DependencyProviders"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":20}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DependencyDependents"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":21}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_SoftRestartSupported"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":22}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ExtendedAddress"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":23}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_AssignedToGuest"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":24}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_CreatorProcessId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":25}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_FirmwareVendor"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1410045054, 35648, 17852, 168, 162, 106, 11, 137, 76, 189, 162","Pid":26}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_SessionId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2212127526, 38822, 16520, 148, 83, 161, 146, 63, 87, 59, 41","Pid":6}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_InstallDate"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2212127526, 38822, 16520, 148, 83, 161, 146, 63, 87, 59, 41","Pid":100}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_FirstInstallDate"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2212127526, 38822, 16520, 148, 83, 161, 146, 63, 87, 59, 41","Pid":101}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_LastArrivalDate"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2212127526, 38822, 16520, 148, 83, 161, 146, 63, 87, 59, 41","Pid":102}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_LastRemovalDate"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2212127526, 38822, 16520, 148, 83, 161, 146, 63, 87, 59, 41","Pid":103}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverDate"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverVersion"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverDesc"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":4}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverInfPath"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":5}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverInfSection"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":6}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverInfSectionExt"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":7}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_MatchingDeviceId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":8}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverProvider"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":9}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverPropPageProvider"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":10}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverCoInstallers"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":11}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ResourcePickerTags"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":12}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_ResourcePickerExceptions"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":13}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverRank"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":14}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_DriverLogoLevel"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":15}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_NoConnectSound"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":17}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_GenericDriverInstalled"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":18}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_AdditionalSoftwareRequested"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2830656989, 11837, 16532, 173, 151, 229, 147, 167, 12, 117, 214","Pid":19}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_SafeRemovalRequired"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2950264384, 34467, 16912, 182, 124, 40, 156, 65, 170, 190, 85","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_Device_SafeRemovalRequiredOverride"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2950264384, 34467, 16912, 182, 124, 40, 156, 65, 170, 190, 85","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DrvPkg_Model"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"3480468305, 15039, 17570, 133, 224, 154, 61, 199, 161, 33, 50","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DrvPkg_VendorWebSite"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"3480468305, 15039, 17570, 133, 224, 154, 61, 199, 161, 33, 50","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DrvPkg_DetailedDescription"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"3480468305, 15039, 17570, 133, 224, 154, 61, 199, 161, 33, 50","Pid":4}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DrvPkg_DocumentationLink"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"3480468305, 15039, 17570, 133, 224, 154, 61, 199, 161, 33, 50","Pid":5}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DrvPkg_Icon"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"3480468305, 15039, 17570, 133, 224, 154, 61, 199, 161, 33, 50","Pid":6}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DrvPkg_BrandingIcon"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"3480468305, 15039, 17570, 133, 224, 154, 61, 199, 161, 33, 50","Pid":7}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_UpperFilters"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1126273419, 63134, 18189, 165, 222, 77, 136, 199, 90, 210, 75","Pid":19}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_LowerFilters"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1126273419, 63134, 18189, 165, 222, 77, 136, 199, 90, 210, 75","Pid":20}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_Security"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1126273419, 63134, 18189, 165, 222, 77, 136, 199, 90, 210, 75","Pid":25}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_SecuritySDS"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1126273419, 63134, 18189, 165, 222, 77, 136, 199, 90, 210, 75","Pid":26}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_DevType"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1126273419, 63134, 18189, 165, 222, 77, 136, 199, 90, 210, 75","Pid":27}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_Exclusive"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1126273419, 63134, 18189, 165, 222, 77, 136, 199, 90, 210, 75","Pid":28}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_Characteristics"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1126273419, 63134, 18189, 165, 222, 77, 136, 199, 90, 210, 75","Pid":29}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_Name"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_ClassName"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_Icon"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":4}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_ClassInstaller"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":5}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_PropPageProvider"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":6}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_NoInstallClass"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":7}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_NoDisplayClass"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":8}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_SilentInstall"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":9}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_NoUseClass"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":10}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_DefaultService"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":11}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_IconPath"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"630898684, 20647, 18382, 175, 8, 104, 201, 167, 215, 51, 102","Pid":12}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_DHPRebalanceOptOut"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"3511500531, 26319, 19362, 157, 56, 13, 219, 55, 171, 71, 1","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceClass_ClassCoInstallers"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1899828995, 41698, 18933, 146, 20, 86, 71, 46, 243, 218, 92","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterface_FriendlyName"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"40784238, 47124, 16715, 131, 205, 133, 109, 111, 239, 72, 34","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterface_Enabled"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"40784238, 47124, 16715, 131, 205, 133, 109, 111, 239, 72, 34","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterface_ClassGuid"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"40784238, 47124, 16715, 131, 205, 133, 109, 111, 239, 72, 34","Pid":4}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterface_ReferenceString"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"40784238, 47124, 16715, 131, 205, 133, 109, 111, 239, 72, 34","Pid":5}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterface_Restricted"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"40784238, 47124, 16715, 131, 205, 133, 109, 111, 239, 72, 34","Pid":6}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterface_UnrestrictedAppCapabilities"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"40784238, 47124, 16715, 131, 205, 133, 109, 111, 239, 72, 34","Pid":8}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterface_SchematicName"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"40784238, 47124, 16715, 131, 205, 133, 109, 111, 239, 72, 34","Pid":9}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterfaceClass_DefaultInterface"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"348666521, 2879, 17591, 190, 76, 161, 120, 211, 153, 5, 100","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceInterfaceClass_Name"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"348666521, 2879, 17591, 190, 76, 161, 120, 211, 153, 5, 100","Pid":3}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Address"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":51}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_DiscoveryMethod"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":52}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsEncrypted"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":53}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsAuthenticated"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":54}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsConnected"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":55}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsPaired"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":56}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Icon"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":57}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Version"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":65}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Last_Seen"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":66}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Last_Connected"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":67}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsShowInDisconnectedState"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":68}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsLocalMachine"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":70}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_MetadataPath"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":71}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsMetadataSearchInProgress"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":72}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_MetadataChecksum"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":73}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsNotInterestingForDisplay"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":74}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_LaunchDeviceStageOnDeviceConnect"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":76}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_LaunchDeviceStageFromExplorer"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":77}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_BaselineExperienceId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":78}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsDeviceUniquelyIdentifiable"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":79}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_AssociationArray"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":80}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_DeviceDescription1"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":81}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_DeviceDescription2"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":82}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_HasProblem"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":83}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsSharedDevice"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":84}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsNetworkDevice"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":85}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsDefaultDevice"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":86}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_MetadataCabinet"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":87}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_RequiresPairingElevation"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":88}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_ExperienceId"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":89}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Category"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":90}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Category_Desc_Singular"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":91}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Category_Desc_Plural"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":92}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Category_Icon"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":93}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_CategoryGroup_Desc"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":94}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_CategoryGroup_Icon"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":95}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_PrimaryCategory"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":97}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_UnpairUninstall"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":98}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_RequiresUninstallElevation"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":99}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_DeviceFunctionSubRank"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":100}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_AlwaysShowDeviceAsConnected"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":101}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_ConfigFlags"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":105}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_PrivilegedPackageFamilyNames"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":106}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_CustomPrivilegedPackageFamilyNames"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":107}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_IsRebootRequired"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2026065864, 4170, 19146, 158, 164, 82, 77, 82, 153, 110, 87","Pid":108}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_FriendlyName"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1701460915, 60608, 17405, 132, 119, 74, 224, 64, 74, 150, 205","Pid":12288}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_Manufacturer"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1701460915, 60608, 17405, 132, 119, 74, 224, 64, 74, 150, 205","Pid":8192}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_ModelName"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1701460915, 60608, 17405, 132, 119, 74, 224, 64, 74, 150, 205","Pid":8194}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_ModelNumber"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"1701460915, 60608, 17405, 132, 119, 74, 224, 64, 74, 150, 205","Pid":8195}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DeviceContainer_InstallInProgress"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"2212127526, 38822, 16520, 148, 83, 161, 146, 63, 87, 59, 41","Pid":9}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPKEY_DevQuery_ObjectType"
+		,"Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}
+		,"ValueType":"PropertyKey"
+		,"Value":{"Fmtid":"325533506, 41942, 18934, 180, 218, 174, 70, 224, 197, 35, 124","Pid":2}
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPROP_TYPEMOD_ARRAY"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":4096
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPROP_TYPEMOD_LIST"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":8192
+		,"Attrs":[]
+	}
+	,{
+		"Name":"MAX_DEVPROP_TYPE"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":25
+		,"Attrs":[]
+	}
+	,{
+		"Name":"MAX_DEVPROP_TYPEMOD"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":8192
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPROP_MASK_TYPE"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":4095
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPROP_MASK_TYPEMOD"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":61440
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DEVPROPID_FIRST_USABLE"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":2
+		,"Attrs":[]
+	}
+]
+
+,"Types":[
+	{
+		"Name":"DEVPROPTYPE"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Scoped":false
+		,"Values":[
+			{"Name":"DEVPROP_TYPE_EMPTY","Value":0}
+			,{"Name":"DEVPROP_TYPE_NULL","Value":1}
+			,{"Name":"DEVPROP_TYPE_SBYTE","Value":2}
+			,{"Name":"DEVPROP_TYPE_BYTE","Value":3}
+			,{"Name":"DEVPROP_TYPE_INT16","Value":4}
+			,{"Name":"DEVPROP_TYPE_UINT16","Value":5}
+			,{"Name":"DEVPROP_TYPE_INT32","Value":6}
+			,{"Name":"DEVPROP_TYPE_UINT32","Value":7}
+			,{"Name":"DEVPROP_TYPE_INT64","Value":8}
+			,{"Name":"DEVPROP_TYPE_UINT64","Value":9}
+			,{"Name":"DEVPROP_TYPE_FLOAT","Value":10}
+			,{"Name":"DEVPROP_TYPE_DOUBLE","Value":11}
+			,{"Name":"DEVPROP_TYPE_DECIMAL","Value":12}
+			,{"Name":"DEVPROP_TYPE_GUID","Value":13}
+			,{"Name":"DEVPROP_TYPE_CURRENCY","Value":14}
+			,{"Name":"DEVPROP_TYPE_DATE","Value":15}
+			,{"Name":"DEVPROP_TYPE_FILETIME","Value":16}
+			,{"Name":"DEVPROP_TYPE_BOOLEAN","Value":17}
+			,{"Name":"DEVPROP_TYPE_STRING","Value":18}
+			,{"Name":"DEVPROP_TYPE_STRING_LIST","Value":8210}
+			,{"Name":"DEVPROP_TYPE_SECURITY_DESCRIPTOR","Value":19}
+			,{"Name":"DEVPROP_TYPE_SECURITY_DESCRIPTOR_STRING","Value":20}
+			,{"Name":"DEVPROP_TYPE_DEVPROPKEY","Value":21}
+			,{"Name":"DEVPROP_TYPE_DEVPROPTYPE","Value":22}
+			,{"Name":"DEVPROP_TYPE_BINARY","Value":4099}
+			,{"Name":"DEVPROP_TYPE_ERROR","Value":23}
+			,{"Name":"DEVPROP_TYPE_NTSTATUS","Value":24}
+			,{"Name":"DEVPROP_TYPE_STRING_INDIRECT","Value":25}
+		]
+		,"IntegerBase":"UInt32"
+	}
+	,{
+		"Name":"DEVPROP_BOOLEAN"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"NativeTypedef"
+		,"AlsoUsableFor":null
+		,"Def":{"Kind":"Native","Name":"Byte"}
+		,"FreeFunc":null
+		,"InvalidHandleValue":null
+	}
+	,{
+		"Name":"DEVPROPKEY"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"fmtid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+			,{"Name":"pid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"DEVPROPSTORE"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Scoped":false
+		,"Values":[
+			{"Name":"DEVPROP_STORE_SYSTEM","Value":0}
+			,{"Name":"DEVPROP_STORE_USER","Value":1}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"DEVPROPCOMPKEY"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Key","Type":{"Kind":"ApiRef","Name":"DEVPROPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]},"Attrs":[]}
+			,{"Name":"Store","Type":{"Kind":"ApiRef","Name":"DEVPROPSTORE","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]},"Attrs":[]}
+			,{"Name":"LocaleName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]},"Attrs":["Const"]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"DEVPROPERTY"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"CompKey","Type":{"Kind":"ApiRef","Name":"DEVPROPCOMPKEY","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]},"Attrs":[]}
+			,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"DEVPROPTYPE","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]},"Attrs":[]}
+			,{"Name":"BufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}

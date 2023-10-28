@@ -1,0 +1,64 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+]
+
+,"Functions":[
+	{
+		"Name":"CheckDeveloperLicense"
+		,"SetLastError":false
+		,"DllImport":"WSClient.dll"
+		,"EntryPoint":"CheckDeveloperLicense"
+		,"CallingConvention":"Winapi"
+		,"Constant":null
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"pExpiration","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"AcquireDeveloperLicense"
+		,"SetLastError":false
+		,"DllImport":"WSClient.dll"
+		,"EntryPoint":"AcquireDeveloperLicense"
+		,"CallingConvention":"Winapi"
+		,"Constant":null
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"pExpiration","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"RemoveDeveloperLicense"
+		,"SetLastError":false
+		,"DllImport":"WSClient.dll"
+		,"EntryPoint":"RemoveDeveloperLicense"
+		,"CallingConvention":"Winapi"
+		,"Constant":null
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]},"Attrs":["In","Optional"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
