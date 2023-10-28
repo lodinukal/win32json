@@ -1031,7 +1031,7 @@
 			,{"Name":"childCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"siblingCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"usageCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"usages","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_DEVNODE_STATUS_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"usages","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputUsage","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"parent","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceItemCollectionInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"firstSibling","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceItemCollectionInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"previousSibling","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceItemCollectionInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
@@ -1062,9 +1062,9 @@
 			,{"Name":"rawPhysicalUnitsExponent","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			,{"Name":"flags","Type":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportItemFlags","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
 			,{"Name":"usageCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"usages","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_DEVNODE_STATUS_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"usages","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputUsage","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"collection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceItemCollectionInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"itemString","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_LOG_CONF","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"itemString","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputString","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 		]
 		,"NestedTypes":[
 		]
@@ -1081,7 +1081,7 @@
 			,{"Name":"id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"itemCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"items","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDMASK","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"items","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportItemInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 		]
 		,"NestedTypes":[
 		]
@@ -1105,8 +1105,8 @@
 			,{"Name":"legacyDInputIndex","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"legacyHidIndex","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"rawReportIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"inputReport","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDFLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"inputReportItem","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDMASK","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"inputReport","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"inputReportItem","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportItemInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 		]
 		,"NestedTypes":[
 		]
@@ -1124,8 +1124,8 @@
 			,{"Name":"legacyDInputIndex","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"legacyHidIndex","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"rawReportIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"inputReport","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDFLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"inputReportItem","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDMASK","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"inputReport","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"inputReportItem","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportItemInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 		]
 		,"NestedTypes":[
 		]
@@ -1145,8 +1145,8 @@
 			,{"Name":"legacyDInputIndex","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"legacyHidIndex","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"rawReportIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"inputReport","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDFLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"inputReportItem","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDMASK","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"inputReport","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"inputReportItem","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportItemInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 		]
 		,"NestedTypes":[
 		]
@@ -1166,7 +1166,7 @@
 			,{"Name":"maxSimultaneousKeys","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"platformType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"platformSubtype","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"nativeLanguage","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_LOG_CONF","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"nativeLanguage","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputString","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 		]
 		,"NestedTypes":[
 		]
@@ -1392,7 +1392,7 @@
 		,"Size":0
 		,"PackingSize":0
 		,"Fields":[
-			{"Name":"usage","Type":{"Kind":"ApiRef","Name":"CM_DEVNODE_STATUS_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]},"Attrs":[]}
+			{"Name":"usage","Type":{"Kind":"ApiRef","Name":"GameInputUsage","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
 			,{"Name":"isDurationSupported","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"isIntensitySupported","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"isRepeatSupported","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1433,9 +1433,9 @@
 			,{"Name":"revisionNumber","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"interfaceNumber","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"collectionNumber","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"usage","Type":{"Kind":"ApiRef","Name":"CM_DEVNODE_STATUS_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]},"Attrs":[]}
-			,{"Name":"hardwareVersion","Type":{"Kind":"ApiRef","Name":"CM_PROB","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]},"Attrs":[]}
-			,{"Name":"firmwareVersion","Type":{"Kind":"ApiRef","Name":"CM_PROB","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]},"Attrs":[]}
+			,{"Name":"usage","Type":{"Kind":"ApiRef","Name":"GameInputUsage","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+			,{"Name":"hardwareVersion","Type":{"Kind":"ApiRef","Name":"GameInputVersion","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+			,{"Name":"firmwareVersion","Type":{"Kind":"ApiRef","Name":"GameInputVersion","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
 			,{"Name":"deviceId","Type":{"Kind":"ApiRef","Name":"APP_LOCAL_DEVICE_ID","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"deviceRootId","Type":{"Kind":"ApiRef","Name":"APP_LOCAL_DEVICE_ID","TargetKind":"Default","Api":"Windows.Win32.Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"deviceFamily","Type":{"Kind":"ApiRef","Name":"GameInputDeviceFamily","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
@@ -1454,25 +1454,25 @@
 			,{"Name":"hapticFeedbackMotorCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"deviceStringCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"deviceDescriptorSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"inputReportInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDFLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"outputReportInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDFLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"featureReportInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDFLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"controllerAxisInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_REMOVAL_POLICY","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"controllerButtonInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_INSTALL_STATE","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"controllerSwitchInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_DEVCAP","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"keyboardInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SET_DISPLAY_CONFIG_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.Display","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"mouseInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"QUERY_DISPLAY_CONFIG_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.Display","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"inputReportInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"outputReportInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"featureReportInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"controllerAxisInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputControllerAxisInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"controllerButtonInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputControllerButtonInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"controllerSwitchInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputControllerSwitchInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"keyboardInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputKeyboardInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"mouseInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputMouseInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"touchSensorInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputTouchSensorInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"motionInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DEVPROPTYPE","TargetKind":"Default","Api":"Windows.Win32.Devices.Properties","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"arcadeStickInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WINUSB_PIPE_POLICY","TargetKind":"Default","Api":"Windows.Win32.Devices.Usb","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"flightStickInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WINUSB_POWER_POLICY","TargetKind":"Default","Api":"Windows.Win32.Devices.Usb","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"gamepadInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CONFIGRET","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"motionInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputMotionInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"arcadeStickInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputArcadeStickInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"flightStickInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputFlightStickInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"gamepadInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputGamepadInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"racingWheelInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRacingWheelInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"uiNavigationInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D2D_COLOR_F","TargetKind":"Default","Api":"Windows.Win32.Graphics.Direct2D.Common","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"forceFeedbackMotorInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D2D1_COLOR_F","TargetKind":"Default","Api":"Windows.Win32.Graphics.Direct2D.Common","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"uiNavigationInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputUiNavigationInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"forceFeedbackMotorInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputForceFeedbackMotorInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"hapticFeedbackMotorInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputHapticFeedbackMotorInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"displayName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_LOG_CONF","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
-			,{"Name":"deviceStrings","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_LOG_CONF","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"displayName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputString","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
+			,{"Name":"deviceStrings","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputString","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"deviceDescriptorData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Const"]}
 		]
 		,"NestedTypes":[
@@ -1602,17 +1602,17 @@
 				,"Size":0
 				,"PackingSize":0
 				,"Fields":[
-					{"Name":"constant","Type":{"Kind":"ApiRef","Name":"DWRITE_COLOR_F","TargetKind":"Default","Api":"Windows.Win32.Graphics.DirectWrite","Parents":[]},"Attrs":[]}
+					{"Name":"constant","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackConstantParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
 					,{"Name":"ramp","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackRampParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
-					,{"Name":"sineWave","Type":{"Kind":"ApiRef","Name":"DXGI_RGBA","TargetKind":"Default","Api":"Windows.Win32.Graphics.Dxgi","Parents":[]},"Attrs":[]}
-					,{"Name":"squareWave","Type":{"Kind":"ApiRef","Name":"DXGI_RGBA","TargetKind":"Default","Api":"Windows.Win32.Graphics.Dxgi","Parents":[]},"Attrs":[]}
-					,{"Name":"triangleWave","Type":{"Kind":"ApiRef","Name":"DXGI_RGBA","TargetKind":"Default","Api":"Windows.Win32.Graphics.Dxgi","Parents":[]},"Attrs":[]}
-					,{"Name":"sawtoothUpWave","Type":{"Kind":"ApiRef","Name":"DXGI_RGBA","TargetKind":"Default","Api":"Windows.Win32.Graphics.Dxgi","Parents":[]},"Attrs":[]}
-					,{"Name":"sawtoothDownWave","Type":{"Kind":"ApiRef","Name":"DXGI_RGBA","TargetKind":"Default","Api":"Windows.Win32.Graphics.Dxgi","Parents":[]},"Attrs":[]}
-					,{"Name":"spring","Type":{"Kind":"ApiRef","Name":"DWRITE_FONT_AXIS_TAG","TargetKind":"Default","Api":"Windows.Win32.Graphics.DirectWrite","Parents":[]},"Attrs":[]}
-					,{"Name":"friction","Type":{"Kind":"ApiRef","Name":"DWRITE_FONT_AXIS_TAG","TargetKind":"Default","Api":"Windows.Win32.Graphics.DirectWrite","Parents":[]},"Attrs":[]}
-					,{"Name":"damper","Type":{"Kind":"ApiRef","Name":"DWRITE_FONT_AXIS_TAG","TargetKind":"Default","Api":"Windows.Win32.Graphics.DirectWrite","Parents":[]},"Attrs":[]}
-					,{"Name":"inertia","Type":{"Kind":"ApiRef","Name":"DWRITE_FONT_AXIS_TAG","TargetKind":"Default","Api":"Windows.Win32.Graphics.DirectWrite","Parents":[]},"Attrs":[]}
+					,{"Name":"sineWave","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackPeriodicParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+					,{"Name":"squareWave","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackPeriodicParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+					,{"Name":"triangleWave","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackPeriodicParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+					,{"Name":"sawtoothUpWave","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackPeriodicParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+					,{"Name":"sawtoothDownWave","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackPeriodicParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+					,{"Name":"spring","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackConditionParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+					,{"Name":"friction","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackConditionParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+					,{"Name":"damper","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackConditionParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
+					,{"Name":"inertia","Type":{"Kind":"ApiRef","Name":"GameInputForceFeedbackConditionParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":[]}
 				]
 				,"NestedTypes":[
 				]
@@ -1743,7 +1743,7 @@
 					,{"Name":"inputKind","Type":{"Kind":"ApiRef","Name":"GameInputKind","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":["In"]}
 					,{"Name":"analogThreshold","Type":{"Kind":"Native","Name":"Single"},"Attrs":["In"]}
 					,{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
-					,{"Name":"callbackFunc","Type":{"Kind":"ApiRef","Name":"OEM_SOURCE_MEDIA_TYPE","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]},"Attrs":["In"]}
+					,{"Name":"callbackFunc","Type":{"Kind":"ApiRef","Name":"GameInputReadingCallback","TargetKind":"FunctionPointer","Api":"Microsoft.GDK","Parents":[]},"Attrs":["In"]}
 					,{"Name":"callbackToken","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":["Out","Optional"]}
 				]
 			}
@@ -1761,7 +1761,7 @@
 					,{"Name":"statusFilter","Type":{"Kind":"ApiRef","Name":"GameInputDeviceStatus","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":["In"]}
 					,{"Name":"enumerationKind","Type":{"Kind":"ApiRef","Name":"GameInputEnumerationKind","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]},"Attrs":["In"]}
 					,{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
-					,{"Name":"callbackFunc","Type":{"Kind":"ApiRef","Name":"SETUP_DI_BUILD_DRIVER_DRIVER_TYPE","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]},"Attrs":["In"]}
+					,{"Name":"callbackFunc","Type":{"Kind":"ApiRef","Name":"GameInputDeviceCallback","TargetKind":"FunctionPointer","Api":"Microsoft.GDK","Parents":[]},"Attrs":["In"]}
 					,{"Name":"callbackToken","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":["Out","Optional"]}
 				]
 			}
@@ -1776,7 +1776,7 @@
 				,"Params":[
 					{"Name":"device","Type":{"Kind":"ApiRef","Name":"IGameInputDevice","TargetKind":"Com","Api":"Microsoft.GDK","Parents":[]},"Attrs":["In","Optional"]}
 					,{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
-					,{"Name":"callbackFunc","Type":{"Kind":"ApiRef","Name":"DIINSTALLDEVICE_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]},"Attrs":["In"]}
+					,{"Name":"callbackFunc","Type":{"Kind":"ApiRef","Name":"GameInputGuideButtonCallback","TargetKind":"FunctionPointer","Api":"Microsoft.GDK","Parents":[]},"Attrs":["In"]}
 					,{"Name":"callbackToken","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":["Out","Optional"]}
 				]
 			}
@@ -1791,7 +1791,7 @@
 				,"Params":[
 					{"Name":"device","Type":{"Kind":"ApiRef","Name":"IGameInputDevice","TargetKind":"Com","Api":"Microsoft.GDK","Parents":[]},"Attrs":["In","Optional"]}
 					,{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
-					,{"Name":"callbackFunc","Type":{"Kind":"ApiRef","Name":"DIINSTALLDRIVER_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]},"Attrs":["In"]}
+					,{"Name":"callbackFunc","Type":{"Kind":"ApiRef","Name":"GameInputKeyboardLayoutCallback","TargetKind":"FunctionPointer","Api":"Microsoft.GDK","Parents":[]},"Attrs":["In"]}
 					,{"Name":"callbackToken","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":["Out","Optional"]}
 				]
 			}
@@ -2086,7 +2086,7 @@
 				,"Attrs":[]
 				,"Params":[
 					{"Name":"stateArrayCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-					,{"Name":"stateArray","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"ApiRef","Name":"DIUNINSTALLDRIVER_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					,{"Name":"stateArray","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"ApiRef","Name":"GameInputKeyState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 			,{
@@ -2098,7 +2098,7 @@
 				,"Platform":null
 				,"Attrs":[]
 				,"Params":[
-					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DIROLLBACKDRIVER_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputMouseState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 			,{
@@ -2122,7 +2122,7 @@
 				,"Attrs":[]
 				,"Params":[
 					{"Name":"stateArrayCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-					,{"Name":"stateArray","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"ApiRef","Name":"UPDATEDRIVERFORPLUGANDPLAYDEVICES_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					,{"Name":"stateArray","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"ApiRef","Name":"GameInputTouchState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 			,{
@@ -2134,7 +2134,7 @@
 				,"Platform":null
 				,"Attrs":[]
 				,"Params":[
-					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_RESTYPE","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputMotionState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 			,{
@@ -2146,7 +2146,7 @@
 				,"Platform":null
 				,"Attrs":[]
 				,"Params":[
-					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_GET_DEVICE_INTERFACE_LIST_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputArcadeStickState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 			,{
@@ -2158,7 +2158,7 @@
 				,"Platform":null
 				,"Attrs":[]
 				,"Params":[
-					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_LOCATE_DEVNODE_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputFlightStickState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 			,{
@@ -2170,7 +2170,7 @@
 				,"Platform":null
 				,"Attrs":[]
 				,"Params":[
-					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_REENUMERATE_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputGamepadState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 			,{
@@ -2182,7 +2182,7 @@
 				,"Platform":null
 				,"Attrs":[]
 				,"Params":[
-					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_ENUMERATE_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRacingWheelState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 			,{
@@ -2194,7 +2194,7 @@
 				,"Platform":null
 				,"Attrs":[]
 				,"Params":[
-					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"INF_STYLE","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputUiNavigationState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 		]
@@ -2239,7 +2239,7 @@
 				,"Platform":null
 				,"Attrs":[]
 				,"Params":[
-					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SETUPSCANFILEQUEUE_FLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}},"Attrs":["Out"]}
+					{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputBatteryState","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
 			,{
@@ -2291,7 +2291,7 @@
 				,"Attrs":[]
 				,"Params":[
 					{"Name":"motorIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-					,{"Name":"params","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILE_FLAGS_AND_ATTRIBUTES","TargetKind":"Default","Api":"Windows.Win32.Storage.FileSystem","Parents":[]}},"Attrs":["In","Optional","Const"]}
+					,{"Name":"params","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputHapticFeedbackParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["In","Optional","Const"]}
 				]
 			}
 			,{
@@ -2303,7 +2303,7 @@
 				,"Platform":null
 				,"Attrs":[]
 				,"Params":[
-					{"Name":"params","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILE_ACCESS_RIGHTS","TargetKind":"Default","Api":"Windows.Win32.Storage.FileSystem","Parents":[]}},"Attrs":["In","Optional","Const"]}
+					{"Name":"params","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRumbleParams","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}},"Attrs":["In","Optional","Const"]}
 				]
 			}
 			,{
@@ -2609,7 +2609,7 @@
 			,{
 				"Name":"GetReportInfo"
 				,"SetLastError":false
-				,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CM_CDFLAGS","TargetKind":"Default","Api":"Windows.Win32.Devices.DeviceAndDriverInstallation","Parents":[]}}
+				,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GameInputRawDeviceReportInfo","TargetKind":"Default","Api":"Microsoft.GDK","Parents":[]}}
 				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
